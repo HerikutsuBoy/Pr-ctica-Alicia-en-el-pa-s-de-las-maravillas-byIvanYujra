@@ -5,4 +5,4 @@ Estudiante: Ivan Asignatura: Programación Web I Actividad: Alicia en el país d
 Evidencia	Enlace
 1. Página publicada	(https://herikutsuboy.github.io/Pr-ctica-Alicia-en-el-pa-s-de-las-maravillas-byIvanYujra/)
 2. Repositorio Git	(https://github.com/HerikutsuBoy/Pr-ctica-Alicia-en-el-pa-s-de-las-maravillas-byIvanYujra)
-3. Video explicativo (pendiente)
+3. Video explicativo (https://app.notion.com/p/Video-de-la-explicaci-n-de-los-ejercicios-con-tem-tica-de-Alicia-en-el-pa-s-de-las-maravillas-408dcc34fd95807baf5eddceba1b4291?source=copy_link)
