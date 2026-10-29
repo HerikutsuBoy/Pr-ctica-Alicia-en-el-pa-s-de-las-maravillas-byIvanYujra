@@ -126,7 +126,7 @@ function procesarMerienda(evento) {
     "resultado-merienda",
     "Invitado: " + nombre + "\n" +
     "Bebida: " + nombreBebida + "\n" +
-    "Cantidad: " + tazas + " tazas\n" +
+    "Cantidad de tazas: " + tazas + "\n" +
     "Precio unitario: Bs " + precioUnitario.toFixed(2) + "\n" +
     "Subtotal: Bs " + subtotal.toFixed(2) + "\n" +
     "Descuento: Bs " + descuento.toFixed(2) + "\n" +
@@ -191,8 +191,8 @@ function procesarReina(evento) {
   mostrarResultado(
     "resultado-reina",
     "Secuencia: " + datos.secuencia + "\n" +
-    "Pares: " + datos.cantidadPares + " cartas, suma " + datos.sumaPares + "\n" +
-    "Impares: " + datos.cantidadImpares + " cartas, suma " + datos.sumaImpares + "\n" +
+    "Pares: cantidad " + datos.cantidadPares + ", suma " + datos.sumaPares + "\n" +
+    "Impares: cantidad " + datos.cantidadImpares + ", suma " + datos.sumaImpares + "\n" +
     ganador,
     false
   );
