@@ -1,6 +1,6 @@
 # Explicación del código
 
-El proyecto tiene tres archivos: `index.html` (estructura y formularios), `css/estilos.css` (aspecto) y `js/app.js` (lógica). Cada formulario tiene su `id`, y `app.js` lo conecta con una función mediante un evento `submit`.
+El proyecto tiene tres archivos: `index.html`, `css/estilos.css` y `js/app.js`. Cada formulario tiene su `id`, y `app.js` lo conecta con una función mediante un evento `submit`.
 
 ## Conceptos usados
 
