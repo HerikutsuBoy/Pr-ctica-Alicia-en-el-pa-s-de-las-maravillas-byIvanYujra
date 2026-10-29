@@ -50,7 +50,7 @@ alicia-maravillas/
 _(Agrega aquí las imágenes guardadas en `docs/evidencias/`, por ejemplo:)_
 
 ```
-![Ejercicio 1](docs/evidencias/ejercicio1.png)
-![Ejercicio 2](docs/evidencias/ejercicio2.png)
-![Ejercicio 3](docs/evidencias/ejercicio3.png)
+![Ejercicio 1](docs/evidencias/ejercicio1-resultado.png)
+![Ejercicio 2](docs/evidencias/ejercicio2-resultado.png)
+![Ejercicio 3](docs/evidencias/ejercicio3-resultado.png)
 ```
