@@ -2,8 +2,8 @@
 
 Actividad práctica de **Programación Web I**: tres aplicaciones web con formularios HTML, CSS y JavaScript nativo, inspiradas en la obra de Lewis Carroll.
 
-- **Página publicada:** _(pega aquí el enlace de GitHub Pages)_
-- **Video explicativo:** _(pega aquí el enlace del video)_
+- **Página publicada:** (https://herikutsuboy.github.io/Pr-ctica-Alicia-en-el-pa-s-de-las-maravillas-byIvanYujra/)
+- **Video explicativo:** (https://app.notion.com/p/Video-de-la-explicaci-n-de-los-ejercicios-con-tem-tica-de-Alicia-en-el-pa-s-de-las-maravillas-408dcc34fd95807baf5eddceba1b4291?source=copy_link)
 
 ## Ejercicios
 
@@ -47,10 +47,7 @@ alicia-maravillas/
 
 ## Capturas de pantalla
 
-_(Agrega aquí las imágenes guardadas en `docs/evidencias/`, por ejemplo:)_
-
-```
 ![Ejercicio 1](docs/evidencias/ejercicio1-resultado.png)
 ![Ejercicio 2](docs/evidencias/ejercicio2-resultado.png)
 ![Ejercicio 3](docs/evidencias/ejercicio3-resultado.png)
-```
+
