@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alicia en el país de las maravillas | Programación Web I</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <h1>Alicia en el país de las maravillas</h1>
+    <p>Tres ejercicios de formularios, HTML, CSS y JavaScript</p>
+    <nav aria-label="Ejercicios">
+      <a href="#pocion">1. La poción</a>
+      <a href="#merienda">2. La merienda</a>
+      <a href="#reina">3. La Reina</a>
+    </nav>
+  </header>
+  <div class="tablero" aria-hidden="true"></div>
+
+  <main id="contenido">
+
+    <!-- EJERCICIO 1 -->
+    <section id="pocion" class="ejercicio ej-pocion">
+      <h2>Ejercicio 1. La poción mágica de Alicia</h2>
+      <p>Alicia bebe una poción que la hace más pequeña. ¿Podrá atravesar la puertita del jardín?</p>
+
+      <div class="regla">
+        <p><strong>Regla de la poción:</strong> cada 1 ml consumido reduce 0,5 cm la altura.</p>
+        <p>Nueva altura = altura inicial − (ml × 0,5)</p>
+        <p>La puerta mide 40 cm. Alicia pasa si su nueva altura es de 40 cm o menos.</p>
+        <p>Valores permitidos: altura de 1 a 250 cm y poción de 1 a 250 ml.</p>
+      </div>
+
+      <form id="form-pocion" novalidate>
+        <label for="altura-alicia">Altura inicial de Alicia (cm)</label>
+        <input type="number" id="altura-alicia" name="altura" step="any" placeholder="Ejemplo: 150">
+
+        <label for="pocion-ml">Cantidad de poción (ml)</label>
+        <input type="number" id="pocion-ml" name="pocion" step="any" placeholder="Ejemplo: 220">
+
+        <button type="submit">Beber la poción</button>
+      </form>
+      <div id="resultado-pocion" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- EJERCICIO 2 -->
+    <section id="merienda" class="ejercicio ej-merienda">
+      <h2>Ejercicio 2. La merienda del Sombrerero Loco</h2>
+      <p>Cada invitado elige una bebida y cuántas tazas quiere.</p>
+
+      <div class="regla">
+        <p><strong>Precios por taza:</strong></p>
+        <ul>
+          <li>Té de menta: Bs 8</li>
+          <li>Café negro: Bs 10</li>
+          <li>Chocolate caliente: Bs 12</li>
+          <li>Limonada rosa: Bs 9</li>
+        </ul>
+        <p><strong>Descuento:</strong> 10 % si pides 5 tazas o más. Máximo 20 tazas por invitado.</p>
+      </div>
+
+      <form id="form-merienda" novalidate>
+        <label for="nombre-invitado">Nombre del invitado</label>
+        <input type="text" id="nombre-invitado" name="nombre" placeholder="Ejemplo: Liebre de Marzo">
+
+        <label for="bebida">Bebida</label>
+        <select id="bebida" name="bebida">
+          <option value="">Selecciona una bebida</option>
+          <option value="te">Té de menta</option>
+          <option value="cafe">Café negro</option>
+          <option value="chocolate">Chocolate caliente</option>
+          <option value="limonada">Limonada rosa</option>
+        </select>
+
+        <label for="tazas">Cantidad de tazas</label>
+        <input type="number" id="tazas" name="tazas" step="any" placeholder="Ejemplo: 5">
+
+        <button type="submit">Calcular la cuenta</button>
+      </form>
+      <div id="resultado-merienda" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- EJERCICIO 3 -->
+    <section id="reina" class="ejercicio ej-reina">
+      <h2>Ejercicio 3. El desafío de la Reina de Corazones</h2>
+      <p>La Reina ordena analizar las cartas numeradas del 1 hasta la cantidad que tú elijas.</p>
+
+      <div class="regla">
+        <p>Cada número se clasifica como par o impar. Se cuentan y se suman por separado, y gana el grupo con la mayor suma.</p>
+        <p>Valores permitidos: un número entero de 1 a 100.</p>
+      </div>
+
+      <form id="form-reina" novalidate>
+        <label for="cantidad-cartas">Cantidad de cartas</label>
+        <input type="number" id="cantidad-cartas" name="cartas" step="any" placeholder="Ejemplo: 10">
+
+        <button type="submit">Aceptar el desafío</button>
+      </form>
+      <div id="resultado-reina" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p>Programación Web I. Actividad práctica de JavaScript.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
