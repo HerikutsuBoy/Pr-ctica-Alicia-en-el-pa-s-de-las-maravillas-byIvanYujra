@@ -54,10 +54,3 @@ _(Agrega aquí las imágenes guardadas en `docs/evidencias/`, por ejemplo:)_
 ![Ejercicio 2](docs/evidencias/ejercicio2.png)
 ![Ejercicio 3](docs/evidencias/ejercicio3.png)
 ```
-
-## Publicar con GitHub Pages
-
-1. En el repositorio, ve a **Settings → Pages**.
-2. En **Source** elige **Deploy from a branch**, rama `main`, carpeta `/ (root)`.
-3. Guarda y espera un minuto. El enlace tiene la forma `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`.
-4. Ábrelo y comprueba que los tres formularios funcionan.
