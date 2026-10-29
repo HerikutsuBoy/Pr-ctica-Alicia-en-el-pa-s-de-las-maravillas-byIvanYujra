@@ -65,9 +65,9 @@ El proyecto tiene tres archivos: `index.html` (estructura y formularios), `css/e
 
 | Ejercicio | Entrada | Resultado esperado |
 |-----------|---------|--------------------|
-| 1 | 150 cm, 220 ml | Altura final 40,0 cm. Puede pasar |
-| 2 | Liebre, café negro, 5 tazas | Subtotal Bs 50,00; descuento Bs 5,00; total Bs 45,00 |
-| 3 | 10 cartas | Pares: 5 cartas, suma 30. Impares: 5 cartas, suma 25. Gana pares |
+| 1 | 150 cm, 220 ml | Altura final 40.0 cm. Puede pasar |
+| 2 | Liebre, café negro, 5 tazas | Subtotal Bs 50.00; descuento Bs 5.00; total Bs 45.00 |
+| 3 | 10 cartas | Pares: cantidad 5, suma 30. Impares: cantidad 5, suma 25. Gana pares |
 
 Más casos en [pruebas.md](pruebas.md).
 
